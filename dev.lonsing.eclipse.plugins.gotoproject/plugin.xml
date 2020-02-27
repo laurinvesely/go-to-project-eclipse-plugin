@@ -26,7 +26,7 @@
             commandId="dev.lonsing.eclipse.plugins.gotoproject.commands.gotoproject"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="M3+P">
+            sequence="Ctrl+Shift+P">
       </key>
    </extension>
    <extension
