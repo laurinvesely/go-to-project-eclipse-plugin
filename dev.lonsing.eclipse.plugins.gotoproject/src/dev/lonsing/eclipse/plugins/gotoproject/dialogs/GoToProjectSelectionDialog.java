@@ -33,7 +33,12 @@ public class GoToProjectSelectionDialog extends FilteredItemsSelectionDialog {
         return true;
       }
       String projectName = ((IProject) item).getName();
-      return this.patternMatcher.matches(projectName);
+      
+      if (projectName.contains(pattern)) {
+        return true;
+      }
+      return false;
+
     }
 
     @Override
