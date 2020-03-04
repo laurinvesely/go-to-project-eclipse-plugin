@@ -34,7 +34,7 @@ public class GoToProjectSelectionDialog extends FilteredItemsSelectionDialog {
       }
       String projectName = ((IProject) item).getName();
       
-      if (projectName.contains(pattern)) {
+      if (projectName.toLowerCase().contains(pattern.toLowerCase())) {
         return true;
       }
       return false;
